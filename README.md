@@ -16,11 +16,11 @@ Goal: Improve and evaluate detection accuracy under challenging visual environme
 
 📁 Project Structure
 ```
-Trafffic Sign Detection/
-|-- Snow/
+Traffic Sign Detection/
 |-- Night/
 |-- Normal/
 |-- Rain/
+|-- Snow/
 ```
 ⚙️ Installation
 
