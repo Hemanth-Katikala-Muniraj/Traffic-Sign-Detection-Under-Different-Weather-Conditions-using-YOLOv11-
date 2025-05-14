@@ -15,7 +15,7 @@ Framework: PyTorch + OpenCV + Ultralytics YOLO
 Goal: Improve and evaluate detection accuracy under challenging visual environments
 
 📁 Project Structure
-
+```
 Traffic-Sign-Detection/
 │
 ├── data/
@@ -35,34 +35,41 @@ Traffic-Sign-Detection/
 ├── requirements.txt   # Python dependencies
 ├── README.md          # Project overview and usage
 └── .gitignore         # Files and directories to ignore in Git
-
+```
 ⚙️ Installation
 
 # Clone the repository
-
+```
 git clone https://github.com/Hemanth-Katikala-Muniraj/Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-.git
 
 cd Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-
-
+```
 # Create a virtual environment 
-
+```
 python -m venv venv
 
 source venv/bin/activate  
 
 # On Windows: venv\Scripts\activate
-
+```
 # Install dependencies
+
+```
 pip install -r requirements.txt
+```
 
 🏃‍♂️ Usage
 
 1. Train the model
+
+```
 python scripts/train.py --data data/dataset.yaml --cfg yolov11.yaml --weights '' --epochs 50
-
+```
 2. Run inference
-python scripts/detect.py --weights runs/weights/best.pt --source data/test/images
 
+```
+python scripts/detect.py --weights runs/weights/best.pt --source data/test/images
+```
 📊 Evaluation
 
 Evaluation metrics include:
