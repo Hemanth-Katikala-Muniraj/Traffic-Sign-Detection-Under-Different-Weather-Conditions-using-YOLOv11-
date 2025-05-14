@@ -37,13 +37,20 @@ Traffic-Sign-Detection/
 └── .gitignore         # Files and directories to ignore in Git
 
 ⚙️ Installation
+
 # Clone the repository
+
 git clone https://github.com/Hemanth-Katikala-Muniraj/Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-.git
+
 cd Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-
 
-# Create a virtual environment (optional)
+# Create a virtual environment 
+
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+source venv/bin/activate  
+
+# On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
