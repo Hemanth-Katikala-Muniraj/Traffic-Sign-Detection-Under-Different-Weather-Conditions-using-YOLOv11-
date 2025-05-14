@@ -40,9 +40,9 @@ Traffic-Sign-Detection/
 
 # Clone the repository
 ```
-git clone https://github.com/Hemanth-Katikala-Muniraj/Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-.git
+git clone https://github.com/Hemanth-Katikala-Muniraj/Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11.git
 
-cd Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11-
+cd Traffic-Sign-Detection-Under-Different-Weather-Conditions-using-YOLOv11
 ```
 # Create a virtual environment 
 ```
