@@ -16,25 +16,11 @@ Goal: Improve and evaluate detection accuracy under challenging visual environme
 
 📁 Project Structure
 ```
-Traffic-Sign-Detection/
-│
-├── data/
-│   ├── train/         # Training images and labels
-│   ├── val/           # Validation images and labels
-│   └── test/          # Testing images and labels
-│
-├── scripts/
-│   ├── train.py       # Script to train the YOLOv11 model
-│   ├── detect.py      # Script for running inference
-│   └── utils.py       # Helper functions
-│
-├── results/           # Inference results and evaluation metrics
-│
-├── runs/              # YOLO training logs and checkpoints
-│
-├── requirements.txt   # Python dependencies
-├── README.md          # Project overview and usage
-└── .gitignore         # Files and directories to ignore in Git
+Trafffic Sign Detection/
+|-- Snow/
+|-- Night/
+|-- Normal/
+|-- Rain/
 ```
 ⚙️ Installation
 
